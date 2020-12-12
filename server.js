@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 const DB_FILE_PATH = path.join(__dirname, "/db/db.json");
 
-fs.stat(DB_FILE_PATH, (err, stats) => {
+fs.access(DB_FILE_PATH, fs.constants.F_OK, (err) => {
     if (err) {
         fs.writeFile(DB_FILE_PATH, '[]', () => {
         })
