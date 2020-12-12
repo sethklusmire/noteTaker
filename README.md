@@ -22,6 +22,7 @@ MIT
 
 ## Links
 https://github.com/sethklusmire/noteTaker
+<br />
 https://klusmire-notetaker.herokuapp.com/
 
 ## Questions
