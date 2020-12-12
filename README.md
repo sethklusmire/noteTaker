@@ -18,7 +18,7 @@ install npm i
 MIT
 
 ## Screenshot
-![screenshot](Screenshot (12).png)
+![screenshot](image/Screenshot.png)
 
 ## Links
 https://github.com/sethklusmire/noteTaker
